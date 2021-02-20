@@ -1,0 +1,31 @@
+    <Button
+        android:id="@+id/btn_goal_achieved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Not Yet Achieved!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goal_name"/>
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item>
+                <shape android:shape="oval" android:padding="10dp">
+                    <size
+                        android:width="2dp"
+                        android:height="2dp"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/meh" />
+        </layer-list>
+
+            <TextView
+                android:id="@+id/txt_minigoal_isachieved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                app:layout_constraintTop_toBottomOf="@id/minigoal_name"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Not yet achieved"
+                android:textSize="16sp"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number_mini_goals">0</string>
+    <string name="create_goal_alert_title">Enter Name of Goal</string>
+    <string name="create_goal_pos_btn_title">Create</string>
+    <string name="minigoal_dialog_title">Enter Goal Name</string>
+    <string name="minigoal_positive_btn_title">Create Mini Goal</string>
+</resources>
